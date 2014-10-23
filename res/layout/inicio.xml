@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+<TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" >
+      </TextView>
+      
+    <Button
+        android:id="@+id/btnIniciarRegistroWifi"
+        android:layout_marginTop="40dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Registros de redes" 
+        android:onClick="iniciarRegistroWifi" android:includeFontPadding="false"></Button>
+    
+        <Button
+        android:id="@+id/btnListadoRedes"
+        android:layout_marginTop="120dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver listado de redes" 
+        android:onClick="verListadoRedes" android:includeFontPadding="false"></Button>
+
+
+                <Button
+        android:id="@+id/btnGPS"
+        android:layout_marginTop="200dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomar punto GPS" 
+        android:onClick="TomarPuntoGPS" android:includeFontPadding="false"></Button>
+                
+                                <Button
+        android:id="@+id/btnGuardarBase"
+        android:layout_marginTop="280dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Base" 
+        android:onClick="guardarBase" android:includeFontPadding="false"></Button>
+</RelativeLayout>
